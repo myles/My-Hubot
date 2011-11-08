@@ -1,1 +1,20 @@
-["redis-brain.coffee", "tweet.coffee", "shipit.coffee"]
+[
+	"redis-brain.coffee",
+	"tweet.coffee",
+	"shipit.coffee",
+	"ascii.coffee",
+	"dice.coffee",
+	"eight-ball.coffee",
+	"github-credentials.coffee",
+	"github-issues.coffee",
+	"lastfm_np.coffee",
+	"polite.coffee",
+	"pypi.coffee",
+	"quote.coffee",
+	"remind.coffee",
+	"twss.coffee",
+	"uptime.coffee",
+	"vanity.coffee",
+	"weather.coffee",
+	"xkcd.coffee"
+]
