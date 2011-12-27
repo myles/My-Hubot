@@ -16,5 +16,6 @@
 	"uptime.coffee",
 	"vanity.coffee",
 	"weather.coffee",
-	"xkcd.coffee"
+	"xkcd.coffee",
+	"bitly.coffee"
 ]
