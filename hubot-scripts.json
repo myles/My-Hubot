@@ -17,5 +17,5 @@
 	"vanity.coffee",
 	"weather.coffee",
 	"xkcd.coffee",
-	"bitly.coffee"
+	"shorten.coffee"
 ]
