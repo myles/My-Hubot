@@ -18,7 +18,6 @@
 	"weather.coffee",
 	"xkcd.coffee",
 	"shorten.coffee",
-  "cloudapp.coffee",
-  "sms.coffee",
-  "isup.coffee"
+	"sms.coffee",
+	"isup.coffee"
 ]
