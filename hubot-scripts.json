@@ -17,5 +17,8 @@
 	"vanity.coffee",
 	"weather.coffee",
 	"xkcd.coffee",
-	"shorten.coffee"
+	"shorten.coffee",
+  "cloudapp.coffee",
+  "sms.coffee",
+  "isup.coffee"
 ]
