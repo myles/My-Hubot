@@ -19,5 +19,8 @@
 	"xkcd.coffee",
 	"shorten.coffee",
 	"sms.coffee",
-	"isup.coffee"
+	"isup.coffee",
+  "fogbugz.coffee",
+  "days_since.coffee",
+  "gob.coffee"
 ]
