@@ -21,6 +21,5 @@
 	"sms.coffee",
 	"isup.coffee",
   "fogbugz.coffee",
-  "days_since.coffee",
-  "gob.coffee"
+  "days_since.coffee"
 ]
