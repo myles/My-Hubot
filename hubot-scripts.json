@@ -9,7 +9,6 @@
 	"github-issues.coffee",
 	"lastfm_np.coffee",
 	"polite.coffee",
-	"pypi.coffee",
 	"quote.coffee",
 	"remind.coffee",
 	"twss.coffee",
