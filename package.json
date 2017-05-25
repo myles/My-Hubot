@@ -1,19 +1,19 @@
 {
-  "name":        "hosted-hubot",
-  "version":     "0.1.0",
-  "author":      "GitHub Inc.",
-  "keywords":    "github hubot campfire bot",
+  "name": "hosted-hubot",
+  "version": "0.1.0",
+  "author": "GitHub Inc.",
+  "keywords": "github hubot campfire bot",
   "description": "A simple helpful Robot for your Company",
-  "licenses":     [{
-    "type":       "MIT",
-    "url":        "http://github.com/github/hubot/raw/master/LICENSE"
-  }],
-
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/github/hubot.git"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/github/hubot/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/github/hubot.git"
   },
-
   "dependencies": {
     "hubot": ">= 2.4.6",
     "hubot-gtalk": ">= 0.0.1",
@@ -21,11 +21,16 @@
     "optparse": "1.0.3",
     "xml2js": ">= 0.1.14",
     "jsdom": ">= 0.2.14",
-    "sprintf": "0.1.0"
+    "sprintf": "0.1.0",
+    "snyk": "^1.30.1"
   },
-
   "engines": {
     "node": "0.8.x",
     "npm": "1.1.x"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
